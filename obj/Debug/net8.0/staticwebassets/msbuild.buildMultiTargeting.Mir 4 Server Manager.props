@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mir 4 Server Manager.props" />
+</Project>

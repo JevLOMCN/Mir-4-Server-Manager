@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "Mir4ServerWebApp.Controllers.ServerController",
+    "Method": "StartServer",
+    "RelativePath": "api/Server/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mir4ServerWebApp.Controllers.ServerController",
+    "Method": "GetStatus",
+    "RelativePath": "api/Server/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Mir4ServerWebApp.Models.ServerStatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mir4ServerWebApp.Controllers.ServerController",
+    "Method": "StopServer",
+    "RelativePath": "api/Server/stop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

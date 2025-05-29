@@ -1,0 +1,34 @@
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.AssemblyInfoInputs.cache
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.AssemblyInfo.cs
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.csproj.CoreCompileInputs.cache
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.RazorAssemblyInfo.cache
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.RazorAssemblyInfo.cs
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\appsettings.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.staticwebassets.runtime.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.staticwebassets.endpoints.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.exe
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.deps.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.runtimeconfig.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.dll
+C:\Users\johne\source\repos\Mir 4 Server Manager\bin\Debug\net8.0\Mir 4 Server Manager.pdb
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\scopedcss\bundle\Mir 4 Server Manager.styles.css
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\scopedcss\projectbundle\Mir 4 Server Manager.bundle.scp.css
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets\msbuild.Mir 4 Server Manager.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets\msbuild.Mir 4 Server Manager.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets\msbuild.build.Mir 4 Server Manager.props
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mir 4 Server Manager.props
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mir 4 Server Manager.props
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.dll
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\refint\Mir 4 Server Manager.dll
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.pdb
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.genruntimeconfig.cache
+C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\ref\Mir 4 Server Manager.dll

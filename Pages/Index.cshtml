@@ -1,0 +1,34 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Mir4 Server Control";
+}
+
+<h1>Mir4 Server Control Panel</h1>
+
+<div>
+    <button onclick="startServer()">Start Server</button>
+    <button onclick="stopServer()">Stop Server</button>
+    <p id="status">Status: Unknown</p>
+</div>
+
+<script>
+    async function getStatus() {
+        const response = await fetch('/api/server/status');
+        const data = await response.json();
+        document.getElementById('status').textContent = 'Status: ' + (data.isRunning ? 'Running' : 'Stopped');
+    }
+
+    async function startServer() {
+        await fetch('/api/server/start', { method: 'POST' });
+        getStatus();
+    }
+
+    async function stopServer() {
+        await fetch('/api/server/stop', { method: 'POST' });
+        getStatus();
+    }
+
+    setInterval(getStatus, 3000);
+    getStatus();
+</script>
