@@ -12,6 +12,7 @@
         <button id="startButton" onclick="startServer()">Start Server</button>
         <button id="stopButton" onclick="stopServer()">Stop Server</button>
         <div id="status">Status: Unknown</div>
+        <div id="userCount" style="margin-bottom: 10px;">Users Online: 0</div>
     </div>
 
     <div style="flex: 2; border-left: 1px solid #ccc; padding-left: 10px;">
@@ -95,7 +96,6 @@
         }
     }
 
-
         function switchTab(serverName) {
         activeServer = serverName;
         for (const name of servers) {
@@ -127,8 +127,19 @@
         setInterval(() => {
             getStatus();
             loadLogs();
+            getUserCount();
         }, 3000);
     });
+
+        async function getUserCount() {
+        try {
+            const response = await fetch('/server/usercount');
+            const text = await response.text();
+            document.getElementById('userCount').textContent = `Users Online: ${text}`;
+        } catch {
+            document.getElementById('userCount').textContent = 'Users Online: ERROR';
+        }
+    }
 </script>
 
 <style>

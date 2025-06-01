@@ -4,6 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Collections.Generic;
+using System.Net.Sockets;
+using System.Text;
+using Mir_4_Server_Manager.Controllers;
 
 namespace Mir4ServerWebApp.Controllers
 {
@@ -21,6 +24,43 @@ namespace Mir4ServerWebApp.Controllers
             var json = System.IO.File.ReadAllText(ConfigPath);
             var config = JsonSerializer.Deserialize<ConfigData>(json);
             return config?.Path;
+        }
+        private int GetUserCountFromFrontLog()
+        {
+            string baseDir = GetServerPath();
+            if (string.IsNullOrEmpty(baseDir)) return 0;
+
+            string frontLogDir = Path.Combine(baseDir, "Front", "logs");
+
+            if (!Directory.Exists(frontLogDir)) return 0;
+
+            var latestLogFile = new DirectoryInfo(frontLogDir)
+                .GetFiles("*.txt")
+                .OrderByDescending(f => f.LastWriteTime)
+                .FirstOrDefault();
+
+            if (latestLogFile == null) return 0;
+
+            try
+            {
+                string[] lines = System.IO.File.ReadAllLines(latestLogFile.FullName);
+                foreach (string line in lines.Reverse())
+                {
+                    if (line.Contains("Redis get usercount"))
+                    {
+                        int index = line.LastIndexOf(':');
+                        if (index != -1 && int.TryParse(line[(index + 1)..].Trim(), out int count))
+                        {
+                            return count;
+                        }
+                    }
+                }
+            }
+            catch
+            {
+            }
+
+            return 0;
         }
 
         [HttpPost("start")]
@@ -86,9 +126,9 @@ namespace Mir4ServerWebApp.Controllers
         }
 
         [HttpGet("status")]
-        public ActionResult<ServerStatus> GetStatus()
+        public async Task<ActionResult<ServerStatus>> GetStatus()
         {
-            var serverExeNames = new[]
+             var serverExeNames = new[]
             {
                 "WorldServer.exe",
                 "GameServer.exe",
@@ -103,8 +143,37 @@ namespace Mir4ServerWebApp.Controllers
                 IsRunning = Process.GetProcessesByName(Path.GetFileNameWithoutExtension(exe)).Any()
             }).ToList();
 
-            return new ServerStatus { Servers = statusList };
+            int userCount = 0;
+            try
+            {
+                using TcpClient client = new();
+                await client.ConnectAsync("127.0.0.1", 3000);
+                using NetworkStream stream = client.GetStream();
+
+                byte[] buffer = new byte[256];
+                int bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
+                string response = Encoding.ASCII.GetString(buffer, 0, bytesRead);
+
+                var parts = response.Split(';');
+                var userCountSegment = parts.FirstOrDefault(p => p.StartsWith("MIR4/0/"));
+                if (userCountSegment != null)
+                {
+                    var segments = userCountSegment.Split('/');
+                    if (segments.Length >= 3 && int.TryParse(segments[2], out int count))
+                        userCount = count;
+                }
+            }
+            catch
+            {
+            }
+
+            return new ServerStatus
+            {
+                Servers = statusList,
+                UserCount = userCount
+            };
         }
+
 
         [Route("/server/logs/{server}")]
         public IActionResult Logs(string server)
@@ -153,6 +222,12 @@ namespace Mir4ServerWebApp.Controllers
             }
         }
 
+        [HttpGet("usercount")]
+        public IActionResult GetUserCount()
+        {
+            int userCount = GetUserCountFromFrontLog();
+            return Content(userCount.ToString());
+        }
 
         public class IndividualServerStatus
         {
@@ -168,6 +243,7 @@ namespace Mir4ServerWebApp.Controllers
         public class ServerStatus
         {
             public List<IndividualServerStatus> Servers { get; set; }
+            public int UserCount { get; set; }
         }
     }
 }

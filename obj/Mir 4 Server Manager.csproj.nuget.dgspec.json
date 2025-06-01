@@ -59,6 +59,10 @@
             "Microsoft.AspNetCore.Mvc.RazorPages": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.37, )"
             }
           },
           "imports": [
