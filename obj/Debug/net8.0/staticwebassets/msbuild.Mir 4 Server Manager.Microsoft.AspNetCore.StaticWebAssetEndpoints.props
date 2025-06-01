@@ -3,26 +3,26 @@
     <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rqj1b3L4PlkymPNF8tduKc\u002B48vueDF3mOggo6AHbPQo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"893"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rqj1b3L4PlkymPNF8tduKc\u002B48vueDF3mOggo6AHbPQo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 01:27:03 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nYeKyzSP8ptZamxKG53es7M1b\u002B0DvQpAoeRriaMCPBQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"940"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nYeKyzSP8ptZamxKG53es7M1b\u002B0DvQpAoeRriaMCPBQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 03:57:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/css/site.yb82udqp5e.css">
+    <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/css/site.xvmfued3j6.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yb82udqp5e"},{"Name":"integrity","Value":"sha256-rqj1b3L4PlkymPNF8tduKc\u002B48vueDF3mOggo6AHbPQo="},{"Name":"label","Value":"_content/Mir 4 Server Manager/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"893"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rqj1b3L4PlkymPNF8tduKc\u002B48vueDF3mOggo6AHbPQo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 01:27:03 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/favicon.61n19gt1b8.ico">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"61n19gt1b8"},{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="},{"Name":"label","Value":"_content/Mir 4 Server Manager/favicon.ico"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 01:06:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xvmfued3j6"},{"Name":"integrity","Value":"sha256-nYeKyzSP8ptZamxKG53es7M1b\u002B0DvQpAoeRriaMCPBQ="},{"Name":"label","Value":"_content/Mir 4 Server Manager/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"940"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nYeKyzSP8ptZamxKG53es7M1b\u002B0DvQpAoeRriaMCPBQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 03:57:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 01:06:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dVb6GRDF3Rtfls914RqhWpyhm21Y5ZVEXkd2bMoxhRI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"232510"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022dVb6GRDF3Rtfls914RqhWpyhm21Y5ZVEXkd2bMoxhRI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 12 Mar 2024 22:36:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/favicon.t6c75mah28.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t6c75mah28"},{"Name":"integrity","Value":"sha256-dVb6GRDF3Rtfls914RqhWpyhm21Y5ZVEXkd2bMoxhRI="},{"Name":"label","Value":"_content/Mir 4 Server Manager/favicon.ico"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232510"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022dVb6GRDF3Rtfls914RqhWpyhm21Y5ZVEXkd2bMoxhRI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 12 Mar 2024 22:36:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/js/script.5ipweew5fc.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
@@ -736,13 +736,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Mir 4 Server Manager.mu4mmudt4k.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DuA3rLYJqY57\u002BVIFPeNsILB\u002BcGzC8S24sxp\u002BHV6UdYo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DuA3rLYJqY57\u002BVIFPeNsILB\u002BcGzC8S24sxp\u002BHV6UdYo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 01:13:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DuA3rLYJqY57\u002BVIFPeNsILB\u002BcGzC8S24sxp\u002BHV6UdYo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 02:23:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mir 4 Server Manager/Mir 4 Server Manager.mu4mmudt4k.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Mir 4 Server Manager.mu4mmudt4k.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mu4mmudt4k"},{"Name":"integrity","Value":"sha256-DuA3rLYJqY57\u002BVIFPeNsILB\u002BcGzC8S24sxp\u002BHV6UdYo="},{"Name":"label","Value":"_content/Mir 4 Server Manager/Mir 4 Server Manager.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DuA3rLYJqY57\u002BVIFPeNsILB\u002BcGzC8S24sxp\u002BHV6UdYo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 01:13:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DuA3rLYJqY57\u002BVIFPeNsILB\u002BcGzC8S24sxp\u002BHV6UdYo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 02:23:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

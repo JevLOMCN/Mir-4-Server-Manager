@@ -1,34 +1,151 @@
 @page
 @model IndexModel
 @{
-    ViewData["Title"] = "Mir4 Server Control";
+    ViewData["Title"] = "Mir 4 Server Control";
 }
 
-<h1>Mir4 Server Control Panel</h1>
+<h1>Server Control Panel</h1>
 
-<div>
-    <button onclick="startServer()">Start Server</button>
-    <button onclick="stopServer()">Stop Server</button>
-    <p id="status">Status: Unknown</p>
+<div style="display: flex; gap: 20px;">
+    <div style="flex: 1;">
+        <h3>Server Status</h3>
+        <button id="startButton" onclick="startServer()">Start Server</button>
+        <button id="stopButton" onclick="stopServer()">Stop Server</button>
+        <div id="status">Status: Unknown</div>
+    </div>
+
+    <div style="flex: 2; border-left: 1px solid #ccc; padding-left: 10px;">
+        <h3>Live Server Logs</h3>
+
+        <!-- Tab buttons -->
+        <div id="logTabs" style="margin-bottom: 10px;">
+            @foreach (var name in new[] { "Gateway", "Game", "Chatting", "Front", "World" })
+            {
+                <button class="tabButton" data-server="@name">@name</button>
+            }
+        </div>
+
+        <!-- Log display container -->
+        <div id="logOutputContainer" style="white-space: pre-wrap; font-family: monospace; font-size: 0.85em; max-height: 400px; overflow-y: auto; white-space: pre-wrap;">
+            @foreach (var name in new[] { "Gateway", "Game", "Chatting", "Front", "World" })
+            {
+                <div id="log_@name" class="logContent"></div>
+            }
+        </div>
+    </div>
 </div>
 
 <script>
+    const servers = ["Gateway", "Game", "Chatting", "Front", "World"];
+    let activeServer = "Gateway";
+
     async function getStatus() {
-        const response = await fetch('/api/server/status');
-        const data = await response.json();
-        document.getElementById('status').textContent = 'Status: ' + (data.isRunning ? 'Running' : 'Stopped');
+        try {
+            const response = await fetch('/server/status');
+            const data = await response.json();
+
+            const statusElem = document.getElementById('status');
+            statusElem.innerHTML = '';
+
+            const anyRunning = data.servers.some(s => s.isRunning);
+
+            data.servers.forEach(server => {
+                const p = document.createElement('p');
+                p.textContent = `${server.serverName}: ${server.isRunning ? 'Running' : 'Stopped'}`;
+                statusElem.appendChild(p);
+            });
+
+            document.getElementById('startButton').disabled = anyRunning;
+            document.getElementById('stopButton').disabled = !anyRunning;
+        } catch {
+            document.getElementById('status').textContent = "Unable to get status.";
+        }
     }
 
     async function startServer() {
-        await fetch('/api/server/start', { method: 'POST' });
+        await fetch('/server/start', { method: 'POST' });
         getStatus();
     }
 
     async function stopServer() {
-        await fetch('/api/server/stop', { method: 'POST' });
+        await fetch('/server/stop', { method: 'POST' });
         getStatus();
     }
 
-    setInterval(getStatus, 3000);
-    getStatus();
+         async function loadLogs() {
+        for (const name of servers) {
+            const logDiv = document.getElementById(`log_${name}`);
+            try {
+                const response = await fetch(`/server/logs/${name}`);
+                if (!response.ok) {
+                    logDiv.textContent = `Log not found. (Status: ${response.status} for /server/logs/${name})`;
+                    continue;
+                }
+
+                const text = await response.text();
+                logDiv.textContent = text;
+
+                if (name === activeServer) {
+                    logDiv.scrollTop = logDiv.scrollHeight;
+                }
+
+            } catch (err) {
+                logDiv.textContent = "Error loading log.";
+            }
+        }
+    }
+
+
+        function switchTab(serverName) {
+        activeServer = serverName;
+        for (const name of servers) {
+            const logDiv = document.getElementById(`log_${name}`);
+            if (name === serverName) {
+                logDiv.style.display = 'block';
+                 document.getElementById('logOutputContainer').scrollTop = document.getElementById('logOutputContainer').scrollHeight;
+                } else {
+                logDiv.style.display = 'none';
+            }
+        }
+
+        document.querySelectorAll('.tabButton').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.server === serverName);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.tabButton').forEach(button => {
+            button.addEventListener('click', () => {
+                switchTab(button.dataset.server);
+            });
+        });
+
+        switchTab(activeServer);
+        getStatus();
+        loadLogs();
+
+        setInterval(() => {
+            getStatus();
+            loadLogs();
+        }, 3000);
+    });
 </script>
+
+<style>
+    .tabButton {
+        padding: 5px 10px;
+        margin-right: 5px;
+        border: 1px solid #ccc;
+        background: #f5f5f5;
+        cursor: pointer;
+    }
+
+    .tabButton.active {
+        background: #ddd;
+        font-weight: bold;
+    }
+
+    .logContent {
+        display: none;
+    }
+</style>

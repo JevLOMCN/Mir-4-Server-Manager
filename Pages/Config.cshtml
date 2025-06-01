@@ -1,0 +1,126 @@
+﻿@page
+@model Mir_4_Server_Manager.Pages.ConfigModel
+@{
+    ViewData["Title"] = "Mir 4 Server Control";
+}
+
+<h1>Server Config Panel</h1>
+
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery antiforgery
+
+<script>
+    const antiForgeryToken = '@antiforgery.GetAndStoreTokens(HttpContext).RequestToken';
+</script>
+
+<style>
+    .info-icon {
+        display: inline-block;
+        margin-left: 6px;
+        color: #0078D7;
+        cursor: default;
+        font-weight: bold;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        user-select: none;
+        position: relative;
+    }
+
+        .info-icon:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+    .tooltip-text {
+        visibility: hidden;
+        width: 300px;
+        background-color: #333;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 10px;
+        position: absolute;
+        z-index: 1000;
+        top: 125%;
+        left: 50%;
+        margin-left: -125px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 14px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
+
+        .tooltip-text::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
+        }
+</style>
+
+<div>
+    <label for="directoryPath">
+        Server Directory (enter or paste full path):
+        <span class="info-icon" tabindex="0" aria-label="More information about the server directory input">
+            ℹ
+            <span class="tooltip-text">
+                <strong>-- 📁 Mir 4 Server</strong> &nbsp;&lt;--- Select this folder<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 📁 Chatting<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 📁 Data<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 📁 Front<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 📁 Game<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 📁 Gateway<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 📁 World<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 🖹 start_servers.bat<br />
+                &emsp;&nbsp;&nbsp;&nbsp;&nbsp;--- 🖹 stop_servers.bat
+            </span>
+        </span>
+    </label><br />
+    <input type="text" id="directoryPath" style="width: 400px;" />
+    <button onclick="savePath()">Save</button>
+</div>
+
+<p id="status"></p>
+
+<script>
+    async function savePath() {
+        const path = document.getElementById('directoryPath').value.trim();
+
+        if (!path) {
+            document.getElementById('status').innerText = 'Please enter a folder path.';
+            return;
+        }
+
+        const response = await fetch('/Config?handler=SavePath', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': antiForgeryToken
+            },
+            body: JSON.stringify({ path: path })
+        });
+
+        const text = await response.text();
+
+        if (response.ok) {
+            document.getElementById('status').innerText = text;
+        } else {
+            document.getElementById('status').innerText = "Error: " + text;
+        }
+    }
+
+    async function loadPath() {
+        const response = await fetch('/Config?handler=GetPath');
+        const data = await response.json();
+        document.getElementById('directoryPath').value = data.path || '';
+    }
+
+    window.onload = loadPath;
+</script>

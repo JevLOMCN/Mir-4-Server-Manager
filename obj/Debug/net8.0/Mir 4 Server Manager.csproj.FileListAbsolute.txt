@@ -32,3 +32,64 @@ C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\refint\Mir 4 S
 C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.pdb
 C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\Mir 4 Server Manager.genruntimeconfig.cache
 C:\Users\johne\source\repos\Mir 4 Server Manager\obj\Debug\net8.0\ref\Mir 4 Server Manager.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\appsettings.Development.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\appsettings.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.staticwebassets.endpoints.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.staticwebassets.runtime.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.exe
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.deps.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.runtimeconfig.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Mir 4 Server Manager.pdb
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.AssemblyInfoInputs.cache
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.AssemblyInfo.cs
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.csproj.CoreCompileInputs.cache
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.MvcApplicationPartsAssemblyInfo.cache
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.RazorAssemblyInfo.cache
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.RazorAssemblyInfo.cs
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.sourcelink.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\scopedcss\bundle\Mir 4 Server Manager.styles.css
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\scopedcss\projectbundle\Mir 4 Server Manager.bundle.scp.css
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets.build.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets.development.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets\msbuild.Mir 4 Server Manager.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets\msbuild.Mir 4 Server Manager.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets\msbuild.build.Mir 4 Server Manager.props
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mir 4 Server Manager.props
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mir 4 Server Manager.props
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets.pack.json
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\refint\Mir 4 Server Manager.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.pdb
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.genruntimeconfig.cache
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\ref\Mir 4 Server Manager.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Server Manager.csproj.AssemblyReference.cache
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Newtonsoft.Json.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Se.6725E27F.Up2Date

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johne\\source\\repos\\Mir 4 Server Manager\\Mir 4 Server Manager.csproj": {}
+    "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Mir 4 Server Manager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johne\\source\\repos\\Mir 4 Server Manager\\Mir 4 Server Manager.csproj": {
+    "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Mir 4 Server Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johne\\source\\repos\\Mir 4 Server Manager\\Mir 4 Server Manager.csproj",
+        "projectUniqueName": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Mir 4 Server Manager.csproj",
         "projectName": "Mir 4 Server Manager",
-        "projectPath": "C:\\Users\\johne\\source\\repos\\Mir 4 Server Manager\\Mir 4 Server Manager.csproj",
+        "projectPath": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Mir 4 Server Manager.csproj",
         "packagesPath": "C:\\Users\\johne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johne\\source\\repos\\Mir 4 Server Manager\\obj\\",
+        "outputPath": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
@@ -55,6 +55,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.RazorPages": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -7,4 +7,8 @@
     <RootNamespace>Mir_4_Server_Manager</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.3.0" />
+  </ItemGroup>
+
 </Project>
