@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mir 4 Server Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03745643255866aa8edc1cc9298105fe4e5078c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39f54483f5ec851ebe97229b0444123e8bad8d55")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mir 4 Server Manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mir 4 Server Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
