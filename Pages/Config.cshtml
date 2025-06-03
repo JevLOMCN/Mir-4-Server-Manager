@@ -85,6 +85,7 @@
     </label><br />
     <input type="text" id="directoryPath" style="width: 400px;" />
     <button onclick="savePath()">Save</button>
+    <button onclick="openPath()">Open</button>
 </div>
 
 <p id="status"></p>
@@ -123,4 +124,18 @@
     }
 
     window.onload = loadPath;
+</script>
+
+<script>
+    async function openPath() {
+        const response = await fetch('/Config?handler=OpenPath', {
+            method: 'POST',
+            headers: {
+                'RequestVerificationToken': antiForgeryToken
+            }
+        });
+
+        const text = await response.text();
+        document.getElementById('status').innerText = response.ok ? text : "Error: " + text;
+    }
 </script>

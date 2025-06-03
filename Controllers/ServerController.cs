@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 using Mir_4_Server_Manager.Controllers;
+using System.ServiceProcess;
 
 namespace Mir4ServerWebApp.Controllers
 {

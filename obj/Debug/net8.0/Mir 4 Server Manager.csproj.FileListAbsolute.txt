@@ -95,3 +95,8 @@ G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8
 G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\obj\Debug\net8.0\Mir 4 Se.6725E27F.Up2Date
 G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\StackExchange.Redis.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\System.ServiceProcess.ServiceController.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+G:\Mir4\Github Uploader\Mir 4 Server Manager\Mir-4-Server-Manager\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll

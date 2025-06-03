@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -45,7 +46,38 @@ namespace Mir_4_Server_Manager.Pages
             await System.IO.File.WriteAllTextAsync(ConfigPath, json);
             return Content("Path saved successfully.");
         }
+        public async Task<IActionResult> OnPostOpenPathAsync()
+        {
+            try
+            {
+                var configFile = Path.Combine(AppContext.BaseDirectory, "serverconfig.json");
 
+                if (!System.IO.File.Exists(configFile))
+                    return BadRequest("serverconfig.json not found.");
+
+                var json = await System.IO.File.ReadAllTextAsync(configFile);
+                using var doc = JsonDocument.Parse(json);
+
+                if (!doc.RootElement.TryGetProperty("Path", out var pathElement))
+                    return BadRequest("Missing 'Path' in config file.");
+
+                var path = pathElement.GetString();
+
+                if (string.IsNullOrWhiteSpace(path) || !Directory.Exists(path))
+                    return BadRequest("Invalid or non-existent folder path.");
+
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = path,
+                    UseShellExecute = true
+                });
+                return Content("Server Path opened.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error: " + ex.Message);
+            }
+        }
         public class ConfigData
         {
             public string Path { get; set; }

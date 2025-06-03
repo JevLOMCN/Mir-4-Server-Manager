@@ -63,6 +63,10 @@
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.37, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [

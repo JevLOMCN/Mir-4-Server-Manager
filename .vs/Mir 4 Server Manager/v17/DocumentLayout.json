@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|g:\\mir4\\github uploader\\mir 4 server manager\\mir-4-server-manager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|g:\\mir4\\github uploader\\mir 4 server manager\\mir-4-server-manager\\pages\\config.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|solutionrelative:pages\\config.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|g:\\mir4\\github uploader\\mir 4 server manager\\mir-4-server-manager\\pages\\config.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|solutionrelative:pages\\config.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|g:\\mir4\\github uploader\\mir 4 server manager\\mir-4-server-manager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|g:\\mir4\\github uploader\\mir 4 server manager\\mir-4-server-manager\\controllers\\servercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|solutionrelative:controllers\\servercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|g:\\mir4\\github uploader\\mir 4 server manager\\mir-4-server-manager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8F0B4B-119E-4E08-9A86-41450A9FBD04}|Mir 4 Server Manager.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T14:01:52.082Z",
+              "Title": "Config.cshtml.cs",
+              "DocumentMoniker": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Config.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Config.cshtml.cs",
+              "ToolTip": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Config.cshtml.cs",
+              "RelativeToolTip": "Pages\\Config.cshtml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:32:07.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Config.cshtml",
+              "DocumentMoniker": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Config.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Config.cshtml",
+              "ToolTip": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Config.cshtml",
+              "RelativeToolTip": "Pages\\Config.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T14:27:35.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:11:20.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerController.cs",
+              "DocumentMoniker": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Controllers\\ServerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServerController.cs",
+              "ToolTip": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Controllers\\ServerController.cs",
+              "RelativeToolTip": "Controllers\\ServerController.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAuwPcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:09:06.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "G:\\Mir4\\Github Uploader\\Mir 4 Server Manager\\Mir-4-Server-Manager\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-03T14:01:43.309Z",
               "EditorCaption": ""

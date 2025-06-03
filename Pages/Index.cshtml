@@ -12,6 +12,16 @@
         <button id="startButton" onclick="startServer()">Start Server</button>
         <button id="stopButton" onclick="stopServer()">Stop Server</button>
         <div id="status">Status: Unknown</div>
+        <p>
+            Couchbase:
+            <span class="@(Model.CouchbaseStatus == "Running" ? "status-running" : "status-stopped")">
+                @Model.CouchbaseStatus
+             </p>
+            Memuari:
+            <span class="@(Model.MemuraiStatus == "Running" ? "status-running" : "status-stopped")">
+                @Model.MemuraiStatus
+            </span>
+        </p>
         <div id="userCount" style="margin-bottom: 10px;">Users Online: 0</div>
     </div>
 
